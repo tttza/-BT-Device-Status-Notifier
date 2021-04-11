@@ -35,10 +35,12 @@ additional positional arguments:
 sudo bash bt-check.sh <MACADDR> <GPIO_PORT> <INTERVAL_TIME> <SCAN_TIME> <DEBUG>
 ```
 
-GPIO_PORT: The gpio port number to use. default value is 25.
-INTERVAL_TIME: The interval how often the script scan BT devices. Unit is secound. default value is 30.  
-SCAN_TIME: The scanning time. Unit is secound. default value is 3.
-DEBUG: Show all scaninng outputs. default is false.
+
+* GPIO_PORT: The gpio port number to use. default value is 25.  
+* INTERVAL_TIME: The interval how often the script scan BT devices. Unit is secound. default value is 30.    
+* SCAN_TIME: The scanning time. Unit is secound. default value is 3.  
+* DEBUG: Show all scaninng outputs. default is false.  
+
 
 ## STOP 
 
