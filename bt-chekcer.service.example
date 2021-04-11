@@ -1,0 +1,7 @@
+[Unit]
+Description=Simple bash script to notify bluetooth device power status by lighting LED for Raspberry pi.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/local/bin/bt-check.sh <MACADDR>
+PIDFile=/tmp/bt-checker.pid
