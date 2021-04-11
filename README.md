@@ -4,6 +4,8 @@
 Simple bash script to notify bluetooth device power status by lighting LED for Raspberry pi.
 It's for online conference participants to let their roommates know that they are in a conference.
 
+![demo](https://user-images.githubusercontent.com/25410554/114296955-f5b06380-9ae8-11eb-95b2-70b1607a1bd1.gif)
+
 It requires bluez and wiringpi to run.
 
 ```bash
